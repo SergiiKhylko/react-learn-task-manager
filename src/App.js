@@ -6,10 +6,10 @@ import "./App.css";
 
 const App = () => {
   const [tasks, setTasks] = useState([
-    { text: "Робота - 1 година", id: "t1" },
-    { text: "Розминка 15 хв", id: "t2" },
-    { text: "Робота - 1 година", id: "t3" },
-    { text: "Відеоігри - 2 години", id: "t4" },
+    { text: "Work - 1h", id: "t1" },
+    { text: "Workout 15m", id: "t2" },
+    { text: "Work - 1h", id: "t3" },
+    { text: "Vodeo games - 2h", id: "t4" },
   ]);
 
   const addTaskHandler = (inputText) => {

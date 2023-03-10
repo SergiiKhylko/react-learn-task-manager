@@ -28,14 +28,14 @@ const TaskInput = (props) => {
     <form onSubmit={formSubmitHandler}>
       <div className={`form-control ${!isInputValid ? "invalid" : ""}`}>
         <label>
-          Завдання
+          Task
         </label>
         <input
           type="text"
           onChange={taskInputChangeHandler}
         />
       </div>
-      <Button type="submit">Додати завдання</Button>
+      <Button type="submit">Add task</Button>
     </form>
   );
 };
